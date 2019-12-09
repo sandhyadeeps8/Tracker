@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/skybk1"
-    tools:context=".UpdateActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/skybk1">
+
     <TextView
         android:id="@+id/editText4"
         android:layout_width="282dp"
@@ -14,14 +13,24 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Update Assets..."
+        android:text="Daily Assest Tracker"
         android:textColor="@color/design_default_color_primary_dark"
-        android:textSize="35dp" />
+        android:textSize="25dp" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:srcCompat="@drawable/l1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        android:text="SCAN QR CODE" />
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
@@ -38,42 +47,66 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="300dp"
-        android:hint="It_Name"
+        android:hint="Classification"
         android:textSize="20dp" />
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="350dp"
-        android:hint="Purchase_Detail"
+        android:hint="It_Name"
         android:textSize="20dp" />
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="400dp"
-        android:hint="Warrenty_Exp"
+        android:hint="Taken By"
         android:textSize="20dp" />
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="150dp"
-        android:inputType="date"/>
+
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="450dp"
-        android:hint="Value"
+        android:hint="Time"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:inputType="time" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:hint="Return_time"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:inputType="time" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:hint="Status"
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="550dp"
-        android:text="UPDATE" />
-
-
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:text="OK" />
 
 </RelativeLayout>
