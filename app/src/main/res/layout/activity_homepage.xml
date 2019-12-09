@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skybk1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_margin="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/app_name"
+        android:keyboardNavigationCluster="false"
+        app:srcCompat="@drawable/l1" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="400dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="500dp"
+        android:layout_marginBottom="400dp"
+        android:ems="10"
+android:drawableLeft="@drawable/ic_action_pwd"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="600dp"
+        android:layout_marginBottom="400dp"
+        android:text="LOGIN" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_alignRight="@id/editText3"
+        android:layout_marginLeft="111dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Register" />
+</RelativeLayout>
